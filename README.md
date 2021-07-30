@@ -1,17 +1,22 @@
 ### Hi there 👋
 
 ![CodeWarsBadge](https://www.codewars.com/users/magiczny-kacper/badges/large)
-<!--
-**magiczny-kacper/magiczny-kacper** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+### About me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+### My projects and ideas
+
+The list below contains my ideas for porjects and projects under development.
+Each ide is described in its own file, contains links to repositories, and other
+notes usefull for me, when developing them.
+
+* [Ring Buffer Library with Unit Tests and CI/CD](RingBuffer/README.md)
+* [ECO - Enrgy Consumption Optimizer](ECO/README.md)
+* [SiloTemp - Silo Temperature Measurement](SiloTemp/README.md)
+* [STM32F3 H-Bridge](H-Bridge/README.md)
+* [Digital Power Supply](DigitalPowerSupply/README.md)
+* [Low Pass Filter with D Class Amplifier](LPFilterwithDClassAmp/README.md)
+
+The [template file](template.md) contains template of description, when writng
+down new ide, or documentating exisitng project.
