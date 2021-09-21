@@ -16,10 +16,12 @@ Status:
 
 ## Description
 
-Some description of the idea
+This project is my implementation of ring buffer, as reusable library for
+embedded systems and others. This is also my playground for experminets and
+learning of unit tests, makefiles and CI/CD services.
 
 ## Repositories
-* [None]()
+* [RingBuffer](https://github.com/magiczny-kacper/RingBuffer)
 
 ## Things done for now
 

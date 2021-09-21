@@ -35,9 +35,15 @@ yet.
 
 * Control algorithm
 * Data savings and storage
-* Communication
+* Communication - Modbus TCP, RTU and Telnet
 
 ### New things and ideas to be brought by rev. 2
+
+* Split all in distributed modules, driven by its own MCUs, which comunicate
+over CAN bus, and can do some simple logic by itselves.
+* Allow to update formware in submodules by master module
+* Master module may be changed to some MCU running under custom Yocto Linux
+distro
 
 ## Repositories
 

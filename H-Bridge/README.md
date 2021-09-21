@@ -23,7 +23,7 @@ The overall control system is shown at the picture below.
 
 ## Repositories
 * [Software in STM32 CubeIDE](https://github.com/magiczny-kacper/STM32-H-Bridge)
-*
+
 ## Things done for now
 
 * Open loop control,

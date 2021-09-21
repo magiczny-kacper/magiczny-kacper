@@ -14,20 +14,21 @@
 
 ## Description
 
-The idea of this project is to the [H-bridge hardware](../H-Bridge/README.md)
-into DC/DC bcuk converter, and then move to custom harware, designed for this
+The idea of this project is to turn the [H-bridge hardware](../H-Bridge/README.md)
+into DC/DC buck converter, and then move to custom hardware, designed for this
 project. The prototype is going to be based fully on the H-bridge hardware.
-The same PCB with additional passive elements on output as filter and and voltage
+The same PCB with additional passive elements on output as filter and voltage
 divider for voltage measurement. If the prototype will be successfull, then the
-application may be ported to STM32G4 instead of STM32F3 if more performace is
+application may be ported to STM32G4 instead of STM32F3 if higher performace is
 required.
 
 Main goals of this project is to create digitally controlled power supply
 providing:
-* usable user interface using buttons, led, rotary encoder and OLED display, for
+* usable user interface using buttons, leds, rotary encoder and OLED display, for
 configuring the output parameters of converter
 * communication interface for remote configuration (via USB, from PC)
 * PID controller for regulation of output in CC and CV modes
+* Modular design of software and hardware
 
 ## Repositories
 * [Power Supply Main Board](https://github.com/magiczny-kacper/DigitalPowerSupply_HW_MB)
@@ -36,7 +37,7 @@ configuring the output parameters of converter
 
 ## Things done for now
 
-* None
+* Main PCB is designed
 
 ## To do's
 
