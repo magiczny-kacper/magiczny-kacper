@@ -4,6 +4,8 @@
 
 ### About me
 
+I'm Automation and Control Systems Engineer from Poland. Form an early age I was
+vsery intrested in electronics, and DIY.
 
 ### My projects and ideas
 
