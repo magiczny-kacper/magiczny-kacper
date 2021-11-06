@@ -4,7 +4,7 @@
 
 ### About me
 
-I'm Automation and Control Systems Engineer from Poland. Form an early age I was
+My name is Kacper, I'm Automation and Control Systems Engineer from Poland. Form an early age I was
 vsery intrested in electronics, and DIY. My biggest intrests are power
 electronics, especially electric motor control, and wired communication between
 devices, like CAN bus, or UART and its derivatives. It includes also higher
