@@ -51,6 +51,7 @@ wide range of voltage - -6-55V DC- and -6-40V AC-.
       - bootloader
     - Cons:
       - Needs whole rework and pcb redesign
+      - SIC800 could be pretty big issue
 
 ## Additional informations
 
