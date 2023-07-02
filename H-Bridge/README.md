@@ -22,15 +22,16 @@ The overall control system is shown at the picture below.
 ![H-bridge architecture](img/HBridge_Arch.png)
 
 ## Repositories
-* [Software in STM32 CubeIDE](https://github.com/magiczny-kacper/STM32-H-Bridge)
+
+- [Software in STM32 CubeIDE](https://github.com/magiczny-kacper/STM32-H-Bridge)
 
 ## Things done for now
 
-* Open loop control,
-* Closed loop current control,
-* Closed loop cascade current and speed control
-* Setpoint from analog input (potentiometer)
-* Ramp for speed change
+- Open loop control,
+- Closed loop current control,
+- Closed loop cascade current and speed control
+- Setpoint from analog input (potentiometer)
+- Ramp for speed change
 
 ## To do's
 
@@ -42,6 +43,7 @@ RTU/TCP, or something other
 - [ ] Some user interface - buttons, leds, display, for setting and displaying data
 - [ ] Position control loop
 - [ ] Extract PID library as separate library as submodule
+
 ### Hardware
 
 - [ ] Add RC filter on current sensing signal
@@ -50,7 +52,7 @@ rotary encoder
 
 ## Additional informations
 
-## Links, references, etc.
+## Links, references, etc
 
 ## Dependencies
 

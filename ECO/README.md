@@ -6,6 +6,7 @@
 - [Description](#description)
   - [Features of rev. 1](#features-of-rev-1)
   - [New things and ideas to be brought by rev. 2](#new-things-and-ideas-to-be-brought-by-rev-2)
+  - [What have been done](#what-have-been-done)
 - [Repositories](#repositories)
 - [Things working](#things-working)
 - [Things not working](#things-not-working)
@@ -33,42 +34,50 @@ yet.
 
 ### Features of rev. 1
 
-* Control algorithm
-* Data savings and storage
-* Communication - Modbus TCP, RTU and Telnet
+- Control algorithm
+- Data savings and storage
+- Communication - Modbus TCP, RTU and Telnet
 
 ### New things and ideas to be brought by rev. 2
 
-* Split all in distributed modules, driven by its own MCUs, which comunicate
+- Split all in distributed modules, driven by its own MCUs, which comunicate
 over CAN bus, and can do some simple logic by itselves.
-* Allow to update formware in submodules by master module
-* Master module may be changed to some MCU running under custom Yocto Linux
+- Allow to update formware in submodules by master module
+- Master module may be changed to some MCU running under custom Yocto Linux
 distro
+
+### What have been done
+
+The rev. 2 idea was dropped. The MCU was changed to STM32G0B1RET6 (same as
+nucleo board). Some tries with zephyr os were made, but didn't work out.
+Existing code was refactored, and ported to G0 MCU. MCUBoot bootloader was
+added. Updating firmware over ethernet is functional, including updates of
+Nextion displays.
 
 ## Repositories
 
-* [Main Controller SW](https://github.com/magiczny-kacper/ECO_MainControllerMCU)
-* [Main Controller HW](https://github.com/magiczny-kacper/ECO_MainMcu_PCB)
-* [Power Supply HW](https://github.com/magiczny-kacper/ECO_PowerSupply_PCB)
-* [Digital IO SW]()
-* [Digital IO HW](https://github.com/magiczny-kacper/ECO_DigitalIO_PCB)
-* [AC Phase Controller SW](https://github.com/magiczny-kacper/ECO_TriacPowerController_PIC16F)
-* [AC Phase Controller HW](https://github.com/magiczny-kacper/ECO_Triac_PCB)
-* [Digital signals isolator HW](https://github.com/magiczny-kacper/ECO_Isolator_PCB)
-* [Wireless IO SW](https://github.com/magiczny-kacper/ECO_WirelessIO_MCU)
-* [Wireless IO HW](https://github.com/magiczny-kacper/ECO_WirelessIO_PCB)
-* [Energy Meter Reader SW](https://github.com/magiczny-kacper/ECO_EnergyMeterReader_Soft)
-* [Energy Meter Reader HW](https://github.com/magiczny-kacper/ECO_energyMeterReader_PCB)
-* [HMI Internal](https://github.com/magiczny-kacper/ECO_HMI_Internal)
-* [HMI External](https://github.com/magiczny-kacper/ECO_HMI_External)
+- [Main Controller SW](https://github.com/magiczny-kacper/ECO_MainControllerMCU)
+- [Main Controller HW](https://github.com/magiczny-kacper/ECO_MainMcu_PCB)
+- [Power Supply HW](https://github.com/magiczny-kacper/ECO_PowerSupply_PCB)
+- [Digital IO SW]()
+- [Digital IO HW](https://github.com/magiczny-kacper/ECO_DigitalIO_PCB)
+- [AC Phase Controller SW](https://github.com/magiczny-kacper/ECO_TriacPowerController_PIC16F)
+- [AC Phase Controller HW](https://github.com/magiczny-kacper/ECO_Triac_PCB)
+- [Digital signals isolator HW](https://github.com/magiczny-kacper/ECO_Isolator_PCB)
+- [Wireless IO SW](https://github.com/magiczny-kacper/ECO_WirelessIO_MCU)
+- [Wireless IO HW](https://github.com/magiczny-kacper/ECO_WirelessIO_PCB)
+- [Energy Meter Reader SW](https://github.com/magiczny-kacper/ECO_EnergyMeterReader_Soft)
+- [Energy Meter Reader HW](https://github.com/magiczny-kacper/ECO_energyMeterReader_PCB)
+- [HMI Internal](https://github.com/magiczny-kacper/ECO_HMI_Internal)
+- [HMI External](https://github.com/magiczny-kacper/ECO_HMI_External)
 
 ## Things working
 
-* None
+- None
 
 ## Things not working
 
-* None
+- None
 
 ## To do's
 
@@ -76,7 +85,7 @@ distro
 
 ## Additional informations
 
-## Links, references, etc.
+## Links, references, etc
 
 ## Dependencies
 

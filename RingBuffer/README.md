@@ -21,19 +21,20 @@ embedded systems and others. This is also my playground for experminets and
 learning of unit tests, makefiles and CI/CD services.
 
 ## Repositories
-* [RingBuffer](https://github.com/magiczny-kacper/RingBuffer)
+
+- [RingBuffer](https://github.com/magiczny-kacper/RingBuffer)
 
 ## Things done for now
 
-* None
+- None
 
 ## To do's
 
-* None
+- None
 
 ## Additional informations
 
-## Links, references, etc.
+## Links, references, etc
 
 ## Dependencies
 

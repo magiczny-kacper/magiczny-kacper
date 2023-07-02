@@ -32,7 +32,7 @@ Some description of the idea
 
 ## Additional informations
 
-## Links, references, etc.
+## Links, references, etc
 
 ## Dependencies
 

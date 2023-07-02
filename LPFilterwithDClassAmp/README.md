@@ -17,19 +17,20 @@
 Some description of the idea
 
 ## Repositories
-* [None]()
+
+- [None]()
 
 ## Things done for now
 
-* None
+- None
 
 ## To do's
 
-* None
+- None
 
 ## Additional informations
 
-## Links, references, etc.
+## Links, references, etc
 
 ## Dependencies
 
